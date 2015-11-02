@@ -10,7 +10,7 @@ import javax.swing.JPanel;
 
 import gameLogic.WhosTurn;
 import gameLogic.addXO;
-import setter.Setter;
+import tableSet.SetTable;
 
 //TODO MAKE AN ARRAY FOR THE BUTTON NAMES AND THEIR .getText() VALUES
 
@@ -83,15 +83,15 @@ public class THandler extends JFrame
 	private static final long serialVersionUID = -5932345902843533513L;
 	int dv1 = 0;
 	int dv2 = 0;
-	public static JButton a1 = new JButton(Setter.getDataValueAt(0,0));
-	public static JButton a2 = new JButton(Setter.getDataValueAt(0,1));
-	public static JButton a3 = new JButton(Setter.getDataValueAt(0,2));
-	public static JButton b1 = new JButton(Setter.getDataValueAt(1,0));
-	public static JButton b2 = new JButton(Setter.getDataValueAt(1,1));
-	public static JButton b3 = new JButton(Setter.getDataValueAt(1,2));
-	public static JButton c1 = new JButton(Setter.getDataValueAt(2,0));
-	public static JButton c2 = new JButton(Setter.getDataValueAt(2,1));
-	public static JButton c3 = new JButton(Setter.getDataValueAt(2,2));
+	public static JButton a1 = new JButton(SetTable.getDataValueAt(0,0));
+	public static JButton a2 = new JButton(SetTable.getDataValueAt(0,1));
+	public static JButton a3 = new JButton(SetTable.getDataValueAt(0,2));
+	public static JButton b1 = new JButton(SetTable.getDataValueAt(1,0));
+	public static JButton b2 = new JButton(SetTable.getDataValueAt(1,1));
+	public static JButton b3 = new JButton(SetTable.getDataValueAt(1,2));
+	public static JButton c1 = new JButton(SetTable.getDataValueAt(2,0));
+	public static JButton c2 = new JButton(SetTable.getDataValueAt(2,1));
+	public static JButton c3 = new JButton(SetTable.getDataValueAt(2,2));
 	public static JPanel mainJPanel = new JPanel();
 	
 	public THandler() 
