@@ -21,7 +21,7 @@ public class THandler extends JFrame
 	public static void main(String[] args)
 	{
 		//String whoWon = null, 
-		String tWin = "SOMEONE WON FUCK YEA";
+		String tWin = "SOMEONE WON HELL YEA";
 		//String winMessage = "Congradulations to " + whoWon + "! You won!";
 		new THandler();
 		
